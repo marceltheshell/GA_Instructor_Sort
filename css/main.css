@@ -1,0 +1,19 @@
+.pic img {
+	width: 200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: gray;
+	border-width: 5px;
+}
+
+.left {
+	text-align: right;
+}
+
+.row {
+	border-style: solid;
+	border-color: teal;
+	border-width: 1px;
+	margin: 20px;
+	box-shadow: 10px 10px 5px #888888
+}

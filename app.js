@@ -102,6 +102,6 @@ angular.module('githubApp', [])
       cohort: 23,
     }
   ];
-    $scope.orderProp = 'cohort';
+    $scope.sortType = 'name'
   }])
 })(window.angular);
