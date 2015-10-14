@@ -13,6 +13,7 @@
 
 <body>
   <div class="container">
+  <current-weather city="San Francisco"></current-weather>
     <div ng-controller="Controller">
      <div class="dropdown">
       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -25,6 +26,7 @@
         <li><a ng-click="sortType = 'position'">position</a></li>
       </ul>
     </div>
+    Search: <input ng-model="query">
       <div ng-repeat="instructor in instructors | orderBy: sortType">
         <div class="row" >
           <div class="col-md-8 pic">
